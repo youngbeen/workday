@@ -98,7 +98,7 @@ getFollowWorkday(new Date()) // 返回今天之后的下一个工作日
 
 
 
-### 获取某日期的下N个工作日
+### 获取某日期后第N个工作日
 
 `getComingWorkday(date, n)`
 
@@ -135,7 +135,7 @@ getFollowNatureDay(new Date()) // 返回今天的下一天（即明天）
 
 
 
-### 获取某日期的下N天
+### 获取某日期后第N天
 
 `getComingNatureDay(date, n)`
 
