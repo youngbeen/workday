@@ -1,7 +1,7 @@
 
 import { dateUtil } from '@youngbeen/angle-util'
 
-const supportYears = ['2022', '2023']
+const supportYears = ['2022', '2023', '2024']
 
 let yearPlan = null
 
