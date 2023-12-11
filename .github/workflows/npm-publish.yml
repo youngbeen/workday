@@ -22,7 +22,7 @@ jobs:
           registry-url: 'https://registry.npmjs.org/'
       - run: npm install -g npm
       - run: npm ci
-      - run: npm compile
+      - run: npm run compile
       - run: npm publish --provenance --access public
         env:
           NODE_AUTH_TOKEN: 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
