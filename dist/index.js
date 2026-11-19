@@ -7,7 +7,7 @@ exports.isWorkday = exports.isWeekend = exports.getFollowWorkday = exports.getFo
 
 var _angleUtil = require("@youngbeen/angle-util");
 
-var supportYears = ['2023', '2024', '2025', '2026'];
+var supportYears = ['2024', '2025', '2026', '2027'];
 var yearPlan = null; // 判断日期是否是周末（周六/周日）
 
 var isWeekend = function isWeekend(date) {
